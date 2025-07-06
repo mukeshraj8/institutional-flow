@@ -7,7 +7,7 @@ fyers = credentials.get_fyers_object()
 if __name__ == "__main__":
 
     telegram_token = "" #"YOUR_TELEGRAM_BOT_TOKEN"
-    chat_id = "247629848" #"YOUR_CHAT_ID"
+    chat_id = "" #"YOUR_CHAT_ID"
     symbol = "NSE:RELIANCE-EQ"  # Replace with your desired symbol
 
     analyzer = FyersOrderFlowAnalyzer(credentials.get_access_token(), telegram_token, chat_id)
