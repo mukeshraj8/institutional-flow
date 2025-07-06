@@ -6,7 +6,7 @@ fyers = credentials.get_fyers_object()
 
 if __name__ == "__main__":
 
-    telegram_token = "7707958659:AAH5oB8FcWYiypLBbsXY1uNdGWcM8QhIZeU" #"YOUR_TELEGRAM_BOT_TOKEN"
+    telegram_token = "" #"YOUR_TELEGRAM_BOT_TOKEN"
     chat_id = "247629848" #"YOUR_CHAT_ID"
     symbol = "NSE:RELIANCE-EQ"  # Replace with your desired symbol
 
